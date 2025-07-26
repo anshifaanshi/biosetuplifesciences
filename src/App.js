@@ -14,11 +14,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/bioit" element={<Bioit />} />
-          <Route path="/newsletter" element={<Newsletter />} />
-          <Route path='/career' element={<Career />} />
-          <Route path='/team' element={<Team />} />
+          <Route path="#about-container" element={<About />} />
+          <Route path="#bioit-container" element={<Bioit />} />
+          <Route path="#newsletter-container" element={<Newsletter />} />
+          <Route path="#career-container" element={<Career />} />
+          <Route path="#team-container" element={<Team />} />
         </Routes>
       </Router>
     </div>
